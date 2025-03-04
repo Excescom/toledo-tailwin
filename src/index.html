@@ -1,0 +1,481 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="dark:bg-black dark:text-white">
+ 
+  <nav class="flex flex-col items-center lg:sticky top-0  z-50 bg-white border-b-2 border-b-gray-300 dark:bg-black dark:border-b-white"> 
+
+    <img class="w-50" src="imagenes/logo-toledo-3-culturas-300.png" alt="">    
+    <button><svg id="botonMenu" class=" opacity-100 h-10 w-10 text-red-500 dark:text-white lg:opacity-0"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="4" y1="6" x2="20" y2="6" />  <line x1="4" y1="12" x2="20" y2="12" />  <line x1="4" y1="18" x2="20" y2="18" /></svg></button>
+    <ul id="menuPrincipal" class="hidden lg:sticky lg:flex gap-3 lg:opacity-100 text-red-700 bg-white dark:text-amber-50 dark:bg-black ">
+      <li>
+        <a href="index.html">Inicio</a>
+      </li>
+      <li>
+          <a href="">Quiénes somos</a>
+      </li>
+      <li class="">
+          <a href="">Nuestras rutas por Toledo &#9660</a>
+
+          <div class=" lg:w-[90%] border-2 border-black dark:border-white border-t-3 border-t-amber-500 rounded-lg bg-white dark:bg-black pointer-events-none lg:opacity-0 grid-cols-1 lg:grid-cols-4 lg:absolute lg:translate-x-[-20%] lg:transition-transform lg:duration-300 lg:ease-in-out lg:left-20 ">
+            <ul class="">
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">vida en la judería de toledo</a></li>
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">ruta noche toledana</a></li>
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">plazas deconocidas de Toledo</a></li>
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">Ruta Toledo 3 Culturas</a></li>
+            </ul>
+            <ul class="">
+                <li> <a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">los mejores miradores de toledo</a></li>
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">ruta pulsera turíastica de Toledo</a></li>
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">Ruta mujeres ilustres toledanas</a></li>
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">toledo ciudad de la magia</a></li>
+            </ul>
+            <ul class="">
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">el mudéjas toledano</a></li>
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">Ruta catedral y sus rincones</a></li>
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">Ruta toledo actual</a></li>
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">Casas singulares de toledo</a></li>
+            </ul>
+
+            <ul class="">
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">Toledo en guerra</a></li>
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">Ruta Musarallas y elementos defensivos de Toledo</a></li>
+                <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">Ruta toledo y el agua</a></li>
+            </ul>
+          </div>
+       
+      </li> 
+      <li>
+          <a href="">Rutas privadas &#9660</a>         
+              <div class=" border-t-3 border-2 border-black dark:border-white border-t-amber-500 rounded-lg bg-white dark:bg-black pointer-events-none lg:opacity-0  lg:absolute lg:translate-x-[-20%] lg:transition-transform lg:duration-300 lg:ease-in-out ">
+                <ul >
+                  <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">vida en la judería de toledo</a></li>
+                  <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">ruta noche toledana</a></li>
+                  <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">plazas deconocidas de Toledo</a></li>
+                  <li><a class=" rounded-lg border-b-2 border-b-amber-50 hover:bg-blue-200 dark:hover:bg-gray-600" href="">Ruta Toledo 3 Culturas</a></li>
+              </ul>
+              </div>
+      </li>
+      <li>
+          <a href="">Regala una ruta</a>
+      </li>
+      <li>
+          <a href="contacto.html">contacto</a>
+      </li>
+      <li>
+        <a href="blog.html"> Blog</a>
+      </li>
+      <li>
+        <a href="buscar.html"><svg class="h-5 w-5 text-red-700 dark:text-amber-50"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="10" cy="10" r="7" />  <line x1="21" y1="21" x2="15" y2="15" /></svg></a>
+      </li>
+  </ul>
+  </nav>
+  <div class="w-full h-[450px] pt-16 relative">
+
+    <div class="overflow-hidden rounded-lg shadow-lg w-full h-full relative">
+        <div id="slider" class="flex transition-transform duration-500 ease-in-out">
+            <img src="imagenes/Slide-Toledo-1.jpg" class="w-full flex-none" alt="Imagen 1">
+            <img src="imagenes/Slide-Toledo-1.jpg" class="w-full flex-none" alt="Imagen 2">
+            <img src="imagenes/Slide-Toledo-1.jpg" class="w-full flex-none" alt="Imagen 3">
+        </div>
+    </div>
+
+    <button id="prev" class="z-20 absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg"><</button>
+    <button id="next" class="z-20 absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg">></button>
+</div>
+
+
+<div class="flex flex-col items-center text-center text-amber-400 mt-20 w-[100%] pb-32">
+    <p class="w-[75%] text-3xl">
+        Toledo, declarada Patrimonio de la Humanidad en 1986, abrazó durante siglos la convivencia de la cultura judía, musulmana y cristiana. Denominada “La ciudad de las tres culturas”, respira una mezcla de estilos, de tiempos y de gentes que la hace una de las ciudades más atractivas para visitar.
+    </p>
+    <h1 class="font-bold mt-4 text-3xl">
+        Elige entre las rutas que te proponemos y ven a disfrutar de Toledo.
+    </h1>
+</div>
+
+<div class="flex flex-col items-center text-center text-amber-400 mt-20 w-[100%] pb-32">
+  <h1 class="font-bold mt-4 text-4xl">
+    LAS RUTAS DE TOLEDO 3 CULTURAS
+  </h1>
+</div>
+
+<div class="grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-4 px-20 gap-4 pb-10 place-items-center">
+  
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class=" h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+
+  <div>
+    <div class="max-w-xs bg-white dark:bg-gray-800 text-white h-[400px] rounded-lg shadow-lg overflow-hidden ">
+      <!-- Imagen -->
+      <img class="opacity-100 h-48 object-cover p-5 overflow-hidden w-[100%] transition-opacity duration-300 ease-in-out hover:opacity-25"" src="imagenes/IMG_2341-2-destacada-400x400.jpg" alt="Ruta Toledo 3 Culturas">
+      
+      <!-- Contenido -->
+      <div class="p-4 ">
+          <h3 class="text-black dark:text-white text-lg font-semibold">Ruta Toledo 3 Culturas</h3>
+          <p class="text-gray-700 mt-2">
+              <span class="text-2xl font-bold text-amber-600">12,00€</span>
+              <span class="text-sm text-black dark:text-white">/persona</span>
+          </p>
+          <div class="flex items-center text-black dark:text-white mt-2 text-sm">
+              <span class="mr-1 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <polyline points="12 6 12 12 16 14" /></svg> 2 horas</span>
+              <span class="ml-2 flex items-center gap-1"><svg class="h-4 w-4 text-black dark:text-white"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="5" cy="18" r="3" />  <circle cx="19" cy="18" r="3" />  <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />  <circle cx="17" cy="5" r="1" /></svg> Paseo a pie</span>
+          </div>
+      </div>
+    </div> 
+  </div>
+  
+   
+</div>
+
+<footer class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 place-items-center px-20 gap-4 p-14 bg-black text-white">
+
+  <div>
+    <h1 class="text-orange-300 text-3xl pb-3"> Enlaces de Interés:</h1>
+    <ul>
+      <li><a href="">Templarios, instrumentos de tortura, mazmorras</a></li>
+      <li><a href="">Ayuntamiento de Toledo</a></li>
+      <li><a href="">Estación de autobuses de Toledo</a></li>
+      <li><a href="">Ave a Toledo</a></li>
+      <li><a href="">Plano turístico de Toledo</a></li>
+      <img class="pt-8" src="imagenes/Logo-SICTED-ES-EN-alargado-300x123.jpg" alt="">
+    </ul>
+  </div>
+
+  <div class="flex flex-col gap-12">
+   
+    <div>
+      <h1 class="text-orange-300 text-3xl pb-3 "> Buscar tu ruta:</h1>
+      <form class="h-[60px]" action="">
+        <span class="ml-2 flex items-center h-[60px] text-black"><input class="bg-white rounded-l-lg h-[60px]" type="text"><button class="bg-gray-500 rounded-r-lg hover:bg-gray-400 h-[60px]">Buscar</button></span>
+      </form>
+    </div>
+    <div>
+      <h1 class="text-orange-300 text-3xl pb-3"> Reservar en:</h1>
+      <p>603 420 820</p>
+      <p>info@toledo3culturas.com</p>
+    </div>
+    
+  </div>
+  
+  <div>
+    <h1 class="text-orange-300 text-3xl pb-3"> Otros Enlaces:</h1>
+    <ul class="list-disc">
+      <li><a href="">Forma de pago</a></li>
+      <li><a href=""> Política de Privacidad</a></li>
+      <li><a href="">Política de cookies</a></li>
+      <li><a href="">Aviso Legal</a></li>
+      <li><a href="">Encuesta de Satisfacción</a></li>
+      <li><a href="">Política de cookies (UE)</a></li>
+      <img class="pt-28" src="imagenes/tarjetas_admitidas1-300x43.png" alt="">
+    </ul>
+  </div>
+  
+  <div>
+    <h1 class="text-orange-300 text-3xl pb-3">Turismo Responsable:</h1>
+
+      <img src="imagenes/Turismo-Seguro-logo-400x400.jpg" alt="">
+    
+  </div>
+
+<p class=" col-span-1 lg:col-span-2 xl:col-span-4 pt-24">Diseñado por Social-media-Managers | 2017 | Todos los derechos reservados | info@social-media-managers.es</p>
+
+</footer>
+  <script src="script.js"></script>
+ 
+</body>
+</html>
